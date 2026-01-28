@@ -13,3 +13,13 @@ class Hero
   }
 
 }
+
+let mago = new Hero("Gandalf", 2000, "mago", "magia")
+let guerreiro = new Hero("Aragorn", 80, "guerreiro", "espada")
+let monge = new Hero("Wukong", 100, "monge", "artes marciais")
+let ninja = new Hero("Naruto", 16, "ninja", "shuriken")
+
+mago.attack()
+guerreiro.attack()
+monge.attack()
+ninja.attack()
